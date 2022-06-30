@@ -5,18 +5,20 @@
 }
 
 .container2{
-  height: 570px;
+  height: 750px;
   width: 100%;
   background-image: url(https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/02/qarman_reentry_cubesat/21837379-1-eng-GB/Qarman_reentry_CubeSat.gif);
   background-size: cover;
 
 }
+
 .container3{
-  height: 570px;
+  height: 750px;
   width: 100%;
   background-image: url(https://p0.pikist.com/photos/394/862/nature-black-dark-night-sky-stars-trees-silhouette.jpg);
   background-size: cover;
 }
+
 .ll{
   margin-left: 15px;
 }
@@ -124,8 +126,9 @@
   flex-direction: column;
   gap: 15px;
   align-items: center;
-  
+  margin-top: 25px;
 }
+
 .card-body{
   background-color: #515152;
 }
