@@ -1,49 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-.container2{
-  height: 750px;
+.container2 {
+  height: 100vh;
   width: 100%;
   background-image: url(https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/02/qarman_reentry_cubesat/21837379-1-eng-GB/Qarman_reentry_CubeSat.gif);
   background-size: cover;
-
 }
 
-.container3{
+.container3 {
   height: 750px;
   width: 100%;
   background-image: url(https://p0.pikist.com/photos/394/862/nature-black-dark-night-sky-stars-trees-silhouette.jpg);
   background-size: cover;
 }
 
-.ll{
+.ll {
   margin-left: 15px;
 }
-#root{
+#root {
   height: 100%;
 }
 
-.middle{
+.middle {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 87%;
-  
 }
 
-.navbar2{
+.navbar2 {
   width: 13%;
   display: flex;
   flex-direction: column;
   height: 500px;
   position: sticky;
-  
 }
 
-.bebot{
+.bebot {
   height: 20%;
   display: flex;
   justify-content: space-around;
@@ -51,76 +48,71 @@
   align-items: center;
 }
 
-.boha{
+.boha {
   width: 25px;
   height: 25px;
   border-radius: 999px;
 }
 
-.fluid{
+.fluid {
   display: flex;
   flex-direction: column;
- 
 }
-.coloumnleft{
- display: flex;
- flex-direction: column;
- gap: 30px;
- width: 100%;
-
+.coloumnleft {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
 }
 
-.designimgbar{
+.designimgbar {
   width: 100px;
   height: 100px;
   border-radius: 9999px;
 }
-.allen{
+.allen {
   border-right: groove 1px;
   height: 100%;
 }
-.nevo{
+.nevo {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  
 }
-.marginleft{
+.marginleft {
   margin-left: 25px;
 }
-.nav-item{
+.nav-item {
   color: antiquewhite;
   width: 100%;
   list-style-type: none;
-  
 }
-.nav-item:hover{
+.nav-item:hover {
   border-bottom: ridge 2px;
 }
 
-.rightside{
- width: 50%;
- color: white;
- display: flex;
- flex-direction: column;
- justify-content: start;
- margin-top: 25px;
- gap: 20px;
- 
+.rightside {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 25px;
+  gap: 20px;
 }
-.card{
+.card {
   opacity: 0.7;
 }
 
-.card-title{
+.card-title {
   color: white;
 }
 
-.card-text{
+.card-text {
   color: white;
 }
 
-.lastr{
+.lastr {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -129,15 +121,15 @@
   margin-top: 25px;
 }
 
-.card-body{
+.card-body {
   background-color: #515152;
 }
 
-.after{
+.after {
   margin-top: 30px;
 }
 
-.rightsideHover{
+.rightsideHover {
   width: 100%;
   color: white;
   display: flex;
@@ -156,65 +148,62 @@
   transform-origin: center;
 }
 
-.sizo{
+.sizo {
   width: 48%;
   display: flex;
   justify-content: start;
   margin-left: 25px;
 }
-.sizeing{
+.sizeing {
   width: 40%;
-  
 }
 
-.h1site{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.h1site {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 4.3rem;
   line-height: 5.7rem;
   margin-left: 25px;
   font-weight: 400;
   text-shadow: 2px 2px #20c997;
-
 }
-.decoration{
+.decoration {
   text-decoration: none;
   color: #20c997;
 }
 
-.toParagraph{
+.toParagraph {
   width: 100%;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.lll{
+.lll {
   margin-left: 25px;
 }
 
-.h2site{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.h2site {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3.3rem;
   line-height: 3.7rem;
-margin-left: 25px;
+  margin-left: 25px;
   font-weight: 400;
   color: #20c997;
 }
 
-.smm{
-  
+.smm {
   width: 70px;
   margin-left: 10px;
   margin-bottom: 15px;
 }
-h1{
+h1 {
   display: block;
   margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-inline-end: 0px;
 }
 
 h1:before {
-  content: '<h1>';
-  font-family: 'La Belle Aurore',cursive;
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
   color: #515152;
   font-size: 1.8rem;
   position: absolute;
@@ -222,16 +211,14 @@ h1:before {
   left: -1.5rem;
 }
 h1:after {
-  content: '<h1/>';
-  font-family: 'La Belle Aurore',cursive;
+  content: "<h1/>";
+  font-family: "La Belle Aurore", cursive;
   color: #515152;
   font-size: 1.8rem;
   position: absolute;
   margin-top: 3.8rem;
   margin-left: 2rem;
 }
-
-
 
 @keyframes span {
   0% {
@@ -245,13 +232,63 @@ h1:after {
     transform: translateY(0);
   }
 }
-.blest{
+.blest {
   display: inline-block;
   transition: all 0.3s ease-out;
   opacity: 1;
   animation: span 1.5s ease-in;
 }
 
-.blest:hover{
+.blest:hover {
   color: #20c997;
+}
+
+@media only screen and (max-width: 600px) {
+ html{
+  font-size: 11px;
+ }
+
+  .container2 {
+    height: 100vh;
+  }
+  .rightside{
+    width: 90%;
+  }
+  .h1site {
+    font-size: 30px;
+    line-height: 7.7rem;
+  }
+
+  .navbar2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: sticky;
+  }
+  .collapse:not(.show){
+    display:  flex !important;
+    flex-direction: column;
+  }
+
+  .designimgbar{
+    height: 80%;
+    width: 95%;
+  }
+
+  .nav-item {
+    color: antiquewhite;
+    
+    font-size: 12px;
+  }
+  .nav-item:hover {
+    border-bottom: ridge 2px;
+  }
+
+  .sizo {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+}
 }
