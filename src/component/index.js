@@ -5,7 +5,7 @@ const Profile = () => {
   const [move, setMove] = useState(false);
 
   return (
-    <div className="container2">
+    <div className="container3">
       <nav className="navbar ">
         <div className="container-fluid">
           <a className="navbar-brand"></a>
@@ -54,8 +54,8 @@ const Profile = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Contact
+                  <a className="nav-link" href="projects">
+                    My projects
                   </a>
                 </li>
               </ul>
@@ -153,7 +153,7 @@ const Profile = () => {
               r
             </span>
           </h1>
-          <p className="text-start marginleft fs-5 fw-light text-muted">
+          <p className="text-start marginleft fs-5 fw-light ">
             Full Stack Web Developer
           </p>
 

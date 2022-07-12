@@ -18,6 +18,10 @@
   background-size: cover;
 }
 
+.text-muted{
+  color: aliceblue !important;
+}
+
 .ll {
   margin-left: 15px;
 }
@@ -250,9 +254,10 @@ h1:after {
 
   .container2 {
     height: 100vh;
+    width: 100%;
   }
   .rightside{
-    width: 90%;
+    width: 100%;
   }
   .h1site {
     font-size: 30px;
@@ -290,5 +295,14 @@ h1:after {
     display: flex;
     justify-content: start;
     margin-left: 25px;
+}
+
+.container3 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://p0.pikist.com/photos/394/862/nature-black-dark-night-sky-stars-trees-silhouette.jpg);
+  background-size: cover;
+}{
+
 }
 }

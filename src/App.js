@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Profile from "./component";
 import Skills from "./component/Skills";
-
+import Projects from "./component/Navbar"
 
 const App = () => {
   
@@ -18,6 +18,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </div>
   );
