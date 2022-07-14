@@ -1,25 +1,18 @@
 import React from "react";
 
 const Projects = () => {
-  return <div className="container3">
-    <nav className="navbar ">
+  
+
+  return (
+    <div className="container3">
+      <nav className="navbar ">
         <div className="container-fluid">
           <a className="navbar-brand"></a>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+         
         </div>
       </nav>
       <div className="middle">
-      <nav className="navbar2 navbar-expand-lg ">
+        <nav className="navbar2 navbar-expand-lg ">
           <div className="container-fluid allen">
             <button
               className="navbar-toggler"
@@ -32,7 +25,10 @@ const Projects = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse nevo" id="navbarNavDropdown">
+            <div
+              className="collapse navbar-collapse nevo"
+              id="navbarNavDropdown"
+            >
               <img
                 className="designimgbar"
                 src="https://i.ibb.co/pQ3PbnJ/1521811564639.jpg"
@@ -55,13 +51,26 @@ const Projects = () => {
                 </li>
               </ul>
               <div className="bebot">
-                <a href="https://www.linkedin.com/in/mousa-hussen/"><img alt="/" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" className="boha"/></a>
-                <a href="https://github.com/MousaHussen"><img alt="/" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyukR8OJJEXFq3ByaCPrTYMDvzhHlpT6hCiA&usqp=CAU" className="boha"/></a>
+                <a href="https://www.linkedin.com/in/mousa-hussen/">
+                  <img
+                    alt="/"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
+                    className="boha"
+                  />
+                </a>
+                <a href="https://github.com/MousaHussen">
+                  <img
+                    alt="/"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyukR8OJJEXFq3ByaCPrTYMDvzhHlpT6hCiA&usqp=CAU"
+                    className="boha"
+                  />
+                </a>
               </div>
             </div>
           </div>
         </nav>
-  <div className="lastr">
+        <div className="lastr">
+          []
           <div className="card  lll">
             <div className="card-body">
               <h5 className="card-title">Insta Clone</h5>
@@ -101,8 +110,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-  </div>
-  </div>
+      </div>
+    </div>
+  );
 };
 
 export default Projects;

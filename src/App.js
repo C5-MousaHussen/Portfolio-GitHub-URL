@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import Profile from "./component";
 import Skills from "./component/Skills";
-import Projects from "./component/Navbar"
+import Projects from "./component/Projects"
 
 const App = () => {
   

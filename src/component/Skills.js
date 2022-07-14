@@ -1,22 +1,30 @@
 import React from "react";
 
 const Skills = () => {
+
+  const imgSkills = [
+    "https://i.ibb.co/ZgVqC8Z/icons8-javascript.gif",
+    "https://cdn-icons-png.flaticon.com/512/889/889192.png?w=360",
+    "https://assets-global.website-files.com/5d9bc5d562ffc2869b470941/5e1f8bd1dc3c511ea5a28a56_icon-rect-tech.png",
+    "https://www.desuvit.com/wp-content/uploads/2021/03/mongodb-icon.png",
+    "https://camo.githubusercontent.com/f85f882cb31eeaeee657ec955313015c30378e8f56c3dc2f06933b617a276cfd/68747470733a2f2f77372e706e6777696e672e636f6d2f706e67732f3734372f3739382f706e672d7472616e73706172656e742d6d7973716c2d6c6f676f2d6d7973716c2d64617461626173652d7765622d646576656c6f706d656e742d636f6d70757465722d736f6674776172652d646f6c7068696e2d6d6172696e652d6d616d6d616c2d616e696d616c732d746578742d7468756d626e61696c2e706e67",
+    "https://cdn0.iconfinder.com/data/icons/social-network-9/50/22-512.png",
+    "https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png",
+    "https://cdn.iconscout.com/icon/free/png-256/jquery-10-1175155.png",
+    "https://w7.pngwing.com/pngs/545/451/png-transparent-node-js-express-js-javascript-solution-stack-web-application-others-angle-text-rectangle.png",
+    "https://img.icons8.com/color/480/nodejs.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png",
+    "https://cdn.iconscout.com/icon/free/png-256/trello-14-1175081.png",
+    "https://getbootstrap.com/docs/4.5/assets/img/bootstrap-icons.png",
+  ];
+
+
   return (
     <div className="container3">
       <nav className="navbar ">
         <div className="container-fluid">
           <a className="navbar-brand"></a>
-          <form className="d-flex" role="search">
-            <input
-              className="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          
         </div>
       </nav>
 
@@ -114,8 +122,13 @@ const Skills = () => {
             </a>{" "}
             me.
           </div>
+          <div className="Rightl ll">
+          {imgSkills.map((img,i)=>{
+            return <div key={i}> <img src={img} className="iconHistory" /></div>
+          })  }      </div>
         </div>
-        
+        <div className="full">
+       </div>
       </div>
     </div>
   );
